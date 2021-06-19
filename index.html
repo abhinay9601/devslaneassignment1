@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cards</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- talieind external link -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome for icons -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/81d3a71fd3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- there are three section header,mainand footer -->
+    <!-- This is headder section which only contain navbar -->
+    <header>
+      <div
+        class="
+          flex
+          justify-start
+          items-center
+          border-t-8 border-b
+          pl-1
+          border-green-700
+          text-green-700
+          font-medium
+          fixed
+          w-full
+          bg-white
+          top-0
+          left-0
+          z-50
+          md:justify-between
+        "
+      >
+        <div class="flex items-center lg:text-lg md:text-base sm:text-sm">
+          <img src="/images/logo.png" alt="Starbucks logo" />
+          <div class="invisible absolute md:static md:visible">
+            <ul class="flex justify-between">
+              <li class="p-3 md:p-1.5 sm:p-0.5">
+                <a href="#">COFFEE</a>
+              </li>
+              <li class="p-3 md:p-1.5 sm:p-0.5">
+                <a href="#">MENU</a>
+              </li>
+              <li class="p-3 md:p-1.5 sm:p-0.5">
+                <a href="#">MERCHANDISE</a>
+              </li>
+              <li class="p-3 md:p-1.5 sm:p-0.5">
+                <a href="#">REWARDS</a>
+              </li>
+              <li class="p-3 pr-0 md:p-1.5 sm:p-0.5">
+                <a href="#">GIFT CARDS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="
+            lg:text-lg
+            md:text-base
+            sm:text-sm
+            invisible
+            md:static
+            md:visible
+          "
+        >
+          <ul class="flex">
+            <li class="flex justify-between items-center p-3">
+              <a href="#"><i class="fas fa-map-marker-alt"></i>FIND A STORE</a>
+            </li>
+            <li class="flex justify-between p-3"><a href="#">SIGN IN</a></li>
+          </ul>
+        </div>
+        <div class="md:invisible md:hidden absolute right-4 text-xl">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- This is main section which contans all the imp contents of the website -->
+    <main class="mt-16 p-1.5 w-full">
+      <div class="static text-white lg:text-lg">
+        <img src="/images/1922x914_without-text.png" alt="Starbucks main img" />
+        <div class="absolute top-10 left-20 md:top-24">
+          <p class="text-xl font-semibold mb-4">
+            MY STARBUCKS REWARDS<sup>tm</sup>
+          </p>
+          <h3 class="font-semibold text-lg sm:text-lg md:text-2xl lg:text-4xl">
+            A loyalty program <br />that is all about you.
+          </h3>
+          <button
+            class="
+              border-white border
+              p-2
+              pl-8
+              pr-8
+              mt-8
+              rounded-md
+              font-semibold
+            "
+          >
+            JOIN NOW
+          </button>
+        </div>
+      </div>
+      <h1 class="font-semibold text-4xl text-center p-7">
+        The First Sip Feeling
+      </h1>
+      <div class="flex justify-around m-4 mt-1 ml-2 mr-2 md:ml-24 md:mr-24">
+        <div class="p-1">
+          <img
+            src="/images/Enjoy_your_first_tall_beverage_at_INR_150.png"
+            alt="Starbucks main img"
+          />
+        </div>
+        <div class="p-1">
+          <img
+            src="/images/Free_Beverage_in_your_Birthday_month.png"
+            alt="Starbucks main img"
+          />
+        </div>
+        <div class="p-1">
+          <img
+            src="/images/Free_Beverage_on_every_10_Stars_collected_in_Gold_tier.png"
+            alt="Starbucks main img"
+          />
+        </div>
+        <div class="p-1">
+          <img
+            src="/images/Free_Size_upgrade_or_Customisations.png"
+            alt="Starbucks main img"
+          />
+        </div>
+      </div>
+      <div>
+        <h3 class="text-green-700 font-semibold text-center text-lg">
+          How to Collect Stars
+        </h3>
+        <p class="text-center text-4xl">Collects Stars,Get rewards</p>
+
+        <div class="md:max-w-screen-sm ml-auto mr-auto mt-4 max-w-lg">
+          <img src="/images/complete_line.jpg" alt="" />
+        </div>
+      </div>
+      <div class="relative">
+        <div class="md:mr-4 mr-40">
+          <img src="/images/1640x740.jpg" alt="Mobile preview" />
+        </div>
+        <div
+          class="
+            text-center
+            md:absolute
+            md:w-2/5
+            md:top-16
+            md:left-20
+            lg:top-36
+          "
+        >
+          <h1 class="text-3xl lg:text-5xl">
+            Download the app for best experience
+          </h1>
+          <p class="text-xl lg:text-3xl">
+            Maximise your rewards membership with the accompanying Starbucks
+            India App.
+          </p>
+          <button
+            class="
+              border-green-900
+              bg-green-900
+              text-white
+              p-2
+              pl-8
+              pr-8
+              mt-8
+              rounded-md
+              font-semibold
+            "
+          >
+            GET THE APP
+          </button>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="ml-14 md:ml-0 md:w-2/3">
+          <img src="/images/1009x729.jpg" alt="" />
+        </div>
+        <div
+          class="
+            text-center
+            md:absolute
+            md:top-20
+            md:right-4
+            md:w-5/12
+            lg:top-36
+            lg:
+          "
+        >
+          <h1 class="text-2xl lg:text-5xl">
+            How to join My Starbucks Rewards<sup>TM</sup>
+          </h1>
+          <div class="lg:text-xl">
+            <p>Already have a card?</p>
+            <p>Signing up is easy and fast.</p>
+          </div>
+          <button
+            class="
+              border-green-900
+              bg-green-900
+              text-white
+              p-2
+              pl-8
+              pr-8
+              mb-4
+              mt-8
+              rounded-md
+              font-semibold
+            "
+          >
+            JOIN NOW
+          </button>
+          <p>
+            Already a member?<a class="text-green-800" href="#"> Sign in</a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-4xl text-center">Frequently Asked Questions</h1>
+        <div class="w-3/4 ml-auto mr-auto">
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+              pr-8
+            "
+          >
+            How does my Starbucks rewards<sup>TM</sup> work? What are the levels
+            and benifits i will receive in these levels?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+              pr-8
+            "
+          >
+            Why is Registratuon necessary in order to join the My Starbucks
+            rewards<sup>TM</sup> program?
+
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            How do I earn Stars?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            Can i earm Stars every time i reload my starbucks Card?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            Do I have to spend RS.300 in each transition to earn stars?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            How many starbucks cards can i register as a part of program?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            When I have a free reward on my Starbucks Card, will the store
+            partner tell me about it? How will I know when I have received a
+            reward on my account?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            If I lose my Starbucks Card, what should I do? Will the balance on
+            my card be safe?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            What if I feel the balance value on my Card is inaccurate?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            Can customers use Starbucks Cards issued in other markets (US,
+            Canada etc.) in India?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            When will the rewards get loaded on my account once I move up or
+            move down from one level to another?
+
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            Does my stars expire?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            When I requalify at Green level, Gold level and see my Star count as
+            zero on my account, does this mean I will lose those Stars?
+
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            What are bonus cards?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            Where will I able to see my rewards?
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            What do I have to do in order to maintain Green level status?
+
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div
+            class="
+              border border-gray-500
+              rounded-md
+              p-2
+              pr-8
+              text-base
+              relative
+              mt-4
+              mb-4
+              shadow-md
+            "
+          >
+            How does Starbucks manage personal information?
+
+            <button
+              class="
+                w-5
+                md:w-8
+                md:h-8
+                text-white
+                bg-green-700
+                absolute
+                right-0
+                top-1
+                rounded-l-md
+              "
+            >
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="bg-green-100 md:invisible md:hidden mt-10">
+        <div>
+          <div class="flex justify-between p-3">
+            <div class="text-green-800"><h1>ABOUT US</h1></div>
+            <button class="text-green-800"><i class="fas fa-plus"></i></button>
+          </div>
+          <div class="flex justify-between p-3">
+            <div class="text-green-800"><h1>COFFEE</h1></div>
+            <button class="text-green-800"><i class="fas fa-plus"></i></button>
+          </div>
+          <div class="flex justify-between p-3">
+            <div class="text-green-800"><h1>MENU</h1></div>
+            <button class="text-green-800"><i class="fas fa-plus"></i></button>
+          </div>
+          <div class="flex justify-between p-3">
+            <div class="text-green-800">
+              <h1>MY STARBUCKS REWARDS<sup>TM</sup></h1>
+            </div>
+            <button class="text-green-800"><i class="fas fa-plus"></i></button>
+          </div>
+          <div class="flex justify-between p-3">
+            <div class="text-green-800"><h1>MERCHANDISE</h1></div>
+            <button class="text-green-800"><i class="fas fa-plus"></i></button>
+          </div>
+          <div class="flex justify-between p-3">
+            <div class="text-green-800"><h1>LEARN MORE</h1></div>
+            <button class="text-green-800"><i class="fas fa-plus"></i></button>
+          </div>
+        </div>
+        <div class="w-28 ml-auto mr-auto">
+          <img
+            class="transform rotate-90"
+            src="/images/starbucksText.png"
+            alt="Starbucks text"
+          />
+        </div>
+      </div>
+      <div
+        class="
+          bg-green-50
+          invisible
+          hidden
+          md:static
+          md:visible
+          mt-28
+          md:flex
+          justify-evenly
+          max-w-0
+          md:max-w-full md:max-h-96
+        "
+      >
+        <div class="w-40 absolute md:relative">
+          <p class="p-2 text-green-900 text-lg font-semibold">About us</p>
+          <ul>
+            <li class="p-2"><a href="#">Our Heritage</a></li>
+            <li class="p-2"><a href="#">Responsibility</a></li>
+            <li class="p-2"><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="w-40">
+          <p class="text-green-900 p-2 text-lg font-semibold">Coffee</p>
+          <ul>
+            <li class="p-2"><a href="#">Whole Bean Coffee</a></li>
+            <li class="p-2">
+              <a href="#">Starbucks VIA<sup>TM</sup></a>
+            </li>
+            <li class="p-2"><a href="#">How to brew Great Coffee</a></li>
+          </ul>
+        </div>
+        <div class="w-40">
+          <p class="text-green-900 p-2 text-lg font-semibold">Menue</p>
+          <ul>
+            <li class="p-2"><a href="#">Drinks</a></li>
+            <li class="p-2"><a href="#">Food</a></li>
+          </ul>
+        </div>
+        <div class="w-40">
+          <p class="text-green-900 p-2 text-lg font-semibold">
+            My Starbucks rewards<sup>TM</sup>
+          </p>
+          <ul>
+            <li class="p-2">
+              <a href="#">My Starbucks rewards<sup>TM</sup></a>
+            </li>
+            <li class="p-2"><a href="#">Mobile App</a></li>
+            <li class="p-2">
+              <a href="#">Reward program Terms and Condition</a>
+            </li>
+            <li><a href="#">Customers Service</a></li>
+            <li><a href="#">Terms and Condition</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-green-900 p-2 text-lg font-semibold">Merchandise</p>
+        </div>
+        <div class="w-40">
+          <p class="text-green-900 p-2 text-lg font-semibold">
+            LEARN MORE<sup>TM</sup>
+          </p>
+          <ul>
+            <li class="p-2"><a href="#">Frequently asked Questions></a></li>
+            <li class="p-2"><a href="#">Card FAQs</a></li>
+            <li class="p-2"><a href="#">Privacy Policy</a></li>
+            <li><a href="#">starbucks card terms of use and aggrement</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- this is footer section the footer content which is not much useful -->
+    <footer
+      class="
+        bg-green-900
+        block
+        p-4
+        text-white
+        font-semibold
+        md:flex
+        md:justify-between
+      "
+    >
+      <div class="p-2 text-center">
+        <div class="inline-block pl-1 pr-1">
+          <p><a href="#">Web Accessibility</a></p>
+        </div>
+        <div class="inline-block pl-1 pr-1">
+          <p><a href="#">Privacy Policy</a></p>
+        </div>
+        <div class="inline-block pl-1 pr-1">
+          <p><a href="#">Trems of use</a></p>
+        </div>
+        <div class="inline-block pl-1 pr-1">
+          <p><a href="#">Site Map</a></p>
+        </div>
+        <div class="inline-block pl-1 pr-1">
+          <p><a href="#">Cookie Preferemces</a></p>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="inline">(C)StarbucksCoffeeCompany2019.</p>
+        <p class="inline">AllRightReserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
